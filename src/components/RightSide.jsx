@@ -55,7 +55,7 @@ export default function RightSide() {
             <Line />
             <Block>
                 <Text>
-                    I've been into development for a long time. I constantly followupdates of modern tools for frontend development, study andtry new features. Looking for a place in a cool, fun andpowerful company. Results will show very quickly, ready towork qualitatively, a lot, and with pleasure
+                    If you want to make your team stronger, or you have a lot of routine tasks, or are just starting a startup, then you need me. I work efficiently and perform tasks of any complexity. I always have a couple of creative ideas. I often update my skills and learn new technologies
                 </Text>
             </Block>
 
@@ -96,12 +96,11 @@ export default function RightSide() {
             </Block>
 
             <Block>
-                <Title>"Decor Pro" (1C programming)</Title>
+                <Title>"Decor Pro"</Title>
 
-                <Text>December 2020 - November 2021| Ukraine
-                Configurator operation;
+                <Text>December 2019 - November 2021| Ukraine
                 Change in furniture calculation logic;
-                Creating a technological production process, with steps,mapping by sections and various states;
+                Development of a CRM system for large furniture production
                 implementation of CRM system and IP-telephony</Text>
             </Block>
 
