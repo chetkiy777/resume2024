@@ -37,6 +37,14 @@ const StyledList = styled.ul`
         align-items: center;
         gap: 5px;
     }
+
+    & a {
+        color: #fafafa;
+
+        &:hover {
+            color: #535bf2;
+        }
+    }
 `
 
 export default function LeftSide() {

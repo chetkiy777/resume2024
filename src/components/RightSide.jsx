@@ -21,6 +21,17 @@ const Title = styled.p`
     font-weight: 700;
 `
 
+const LinkTitle = styled.a`
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: #000;
+
+    &:hover {
+        color: #535bf2; 
+    }
+`
+
 const Text = styled.p`
     font-size: 12px;
     font-weight: 400;
@@ -52,17 +63,25 @@ export default function RightSide() {
             <Line />
 
             <Block>
-                <Title>Wallet</Title>
+                <LinkTitle href="https://wallet-community.netlify.app">
+                    Wallet
+                </LinkTitle>
+
                 <Text>
-                Used React and Node. Application for controlling waste,with monthly analysis, full login and other cool features. I worked on the server side. 
+                    Used React and Node. Application for controlling waste,with monthly analysis, full login and other cool features. I worked on the server side. 
                 </Text>
+                <LinkTitle href="https://github.com/VSRudnyk/wallet_backend">Project Link</LinkTitle>
             </Block>
 
             <Block>
-                <Title>Filmoteka</Title>
+                <LinkTitle href="https://oleksandrtymoshenko.github.io/js-project-10/">
+                    Filmoteka
+                </LinkTitle>
+
                 <Text>
-                Web - application for searching films, with login, adding tofavorites and watched. Team project. I set up a repository forteam work, created a trello with tasks, helped everyone dealwith difficulties.
+                    Web - application for searching films, with login, adding tofavorites and watched. Team project. I set up a repository forteam work, created a trello with tasks, helped everyone dealwith difficulties.
                 </Text>
+                <LinkTitle href="https://github.com/OleksandrTymoshenko/js-project-10">Project Link</LinkTitle>
             </Block>
 
             <BlockTitle>Work Experience</BlockTitle>
