@@ -1,31 +1,32 @@
 import styled from "styled-components"
 
 const MainTitle = styled.p`
-    font-size: 24px;
+    font-size: 21px;
     font-weight: 800;
 `
 
 const Block = styled.div`
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 `
 
 
 const BlockTitle = styled.p`
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
 `
 
 const Title = styled.p`
     font-size: 12px;
     font-weight: 700;
+    margin-top: 10px;
 `
 
 const LinkTitle = styled.a`
     text-decoration: none;
     font-size: 12px;
     font-weight: 700;
-    color: #000;
+    color: #00BFFF;
 
     &:hover {
         color: #535bf2; 
@@ -50,7 +51,7 @@ export default function RightSide() {
     return(
         <div>
             <MainTitle>Igor Gladkiy</MainTitle>
-            <Title>(frontend developer)</Title>
+            <Title>Full Stack Developer</Title>
 
             <Line />
             <Block>
@@ -70,39 +71,71 @@ export default function RightSide() {
                 <Text>
                     Used React and Node. Application for controlling waste,with monthly analysis, full login and other cool features. I worked on the server side. 
                 </Text>
-                <LinkTitle href="https://github.com/VSRudnyk/wallet_backend">Project Link</LinkTitle>
+                <LinkTitle href="https://github.com/VSRudnyk/wallet_backend">Github</LinkTitle>
             </Block>
 
             <Block>
-                <LinkTitle href="https://oleksandrtymoshenko.github.io/js-project-10/">
-                    Filmoteka
+                <LinkTitle href="https://github.com/chetkiy777/ice-cream-team-project">
+                    IceCream
                 </LinkTitle>
 
                 <Text>
-                    Web - application for searching films, with login, adding tofavorites and watched. Team project. I set up a repository forteam work, created a trello with tasks, helped everyone dealwith difficulties.
+                  An ice cream website. The front was behind me. Lots of animations, including custom ones.
                 </Text>
-                <LinkTitle href="https://github.com/OleksandrTymoshenko/js-project-10">Project Link</LinkTitle>
+                <LinkTitle href="https://chetkiy777.github.io/ice-cream-team-project/">Github</LinkTitle>
+            </Block>
+
+            <Block>
+              <LinkTitle href="tg://@pros100k_bot">
+                Pros100k Exchange Web App
+              </LinkTitle>
+
+              <Text>
+                It's my first web app for Telegram. I used the Telegram Web App API, React, and Node.js.
+                The app allows users to exchange crypto currencies directly within Telegram.
+              </Text>
+              <LinkTitle href="https://github.com/chetkiy777/tg-web-app">Github</LinkTitle>
             </Block>
 
             <BlockTitle>Work Experience</BlockTitle>
             <Line />
 
+
+            <Block>
+              <Title>"Traffic Squad"
+                August 2024 - for now| Ukraine</Title>
+              <Text>
+                I'm currently working on a large project as a full-stack developer. I'm developing the API in Python and writing front-end logic in React.
+                I take on all the complex and hardest tasks and rework what the junior developers have written.</Text>
+            </Block>
+
+
+            <Block>
+              <Title>"Pixoram"
+                August 2023 - August 2024| Ukraine</Title>
+              <Text>
+                I worked as a Tech Lead. I set up Monday with integrations and automations.
+                I created my own cloaking system and many other optimization products.</Text>
+            </Block>
+
+
+            <Block>
+              <Title>"Bulls Media"
+                January 2022 - August 2023| Ukraine</Title>
+              <Text>
+                I've created many different landing pages using HTML+CSS and several projects using React,
+                all with a gaming theme.</Text>
+            </Block>
+
             <Block>
                 <Title>"MACC-Systems"
-                April 2022 - January 2024 | Ukraine</Title>
+                April 2021 - January 2022 | Ukraine</Title>
                 <Text>
                 create interfaces and write logic for big ERP applications
                 Based on API objects, I create forms that calculate logic ofvarious types of complexity. I train juniors and integrate theminto team work. I’m setting up Engines, working</Text>
             </Block>
 
-            <Block>
-                <Title>"Decor Pro"</Title>
 
-                <Text>December 2019 - November 2021| Ukraine
-                Change in furniture calculation logic;
-                Development of a CRM system for large furniture production
-                implementation of CRM system and IP-telephony</Text>
-            </Block>
 
             <BlockTitle>Education</BlockTitle>
             <Line />

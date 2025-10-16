@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import background from "../images/bg_grey_img.jpg"
-import photo from "../images/foto.jpg"
+import photo from "../images/photo.jpg"
 import GitLogo from '../images/svg/github.svg'
 import PhoneLogo from '../images/svg/phone.svg'
 import TgLogo from '../images/svg/tg.svg'
@@ -11,7 +11,7 @@ const StyledContainer = styled.div`
     flex-direction: column;
     color: #fafafa;
     height: 100vh;
-    width: 300px;
+    width: 350px;
     margin-right: 40px;
 `
 
@@ -29,7 +29,7 @@ const StyledList = styled.ul`
     list-style: none;
     display: flex;
     flex-direction: column;
-    font-size: 12px;
+    font-size: 14px;
     margin: 10px;
 
     & li {
@@ -75,7 +75,7 @@ export default function LeftSide() {
 
                 <li>
                     <LinkedinLogo height="18" width="18"/>
-                    <a href="https://www.linkedin.com/in/igor-gladkiy-530b211b3/">Linkedin</a>
+                    <a href="https://www.linkedin.com/in/igor-gladkiy-530b211b3/">LinkedIn</a>
                 </li>
             </StyledList>
 
@@ -83,10 +83,10 @@ export default function LeftSide() {
             <StyledList>
                 <h3>Tech Skills</h3>
                 
-                <li>React</li>
-                <li>TypeScript</li>
-                <li>Next</li>
-                <li>Vite</li>
+                <li>React, Next, Node</li>
+                <li>Python, fastAPI</li>
+                <li>WEB3, Haddhat, Solidity</li>
+                <li>Docker, Cloudflare, Nginx</li>
 
             </StyledList>
 
@@ -95,7 +95,7 @@ export default function LeftSide() {
                 
                 <li>Сreative</li>
                 <li>Responsible</li>
-                <li>Not boring</li>
+                <li>Hardworking</li>
                 <li>Productive</li>
 
             </StyledList>
@@ -105,7 +105,6 @@ export default function LeftSide() {
 
                 <li>English - B2</li>
                 <li>Ukrainian - C2</li>
-                <li>Russian - C2</li>
             </StyledList>
 
         </StyledContainer>
