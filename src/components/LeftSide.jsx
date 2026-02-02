@@ -83,9 +83,9 @@ export default function LeftSide() {
             <StyledList>
                 <h3>Tech Skills</h3>
                 
-                <li>React, Next, Node</li>
-                <li>Python, fastAPI</li>
-                <li>WEB3, Haddhat, Solidity</li>
+                <li>React, Next</li>
+                <li>Node, Fastify</li>
+                <li>WEB3, Solidity</li>
                 <li>Docker, Cloudflare, Nginx</li>
 
             </StyledList>
@@ -95,7 +95,7 @@ export default function LeftSide() {
                 
                 <li>Сreative</li>
                 <li>Responsible</li>
-                <li>Hardworking</li>
+                <li>Multitask</li>
                 <li>Productive</li>
 
             </StyledList>

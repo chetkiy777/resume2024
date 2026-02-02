@@ -56,7 +56,7 @@ export default function RightSide() {
             <Line />
             <Block>
                 <Text>
-                    If you want to make your team stronger, or you have a lot of routine tasks, or are just starting a startup, then you need me. I work efficiently and perform tasks of any complexity. I always have a couple of creative ideas. I often update my skills and learn new technologies
+                      f you want to make your team stronger, or you have a lot of routine tasks, or are just starting a startup, then you need me. I work efficiently and perform tasks of any complexity. I always have a couple of creative ideas. I often update my skills and learn new technologies
                 </Text>
             </Block>
 
