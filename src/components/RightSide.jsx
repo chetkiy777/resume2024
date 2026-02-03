@@ -51,12 +51,18 @@ export default function RightSide() {
     return(
         <div>
             <MainTitle>Igor Gladkiy</MainTitle>
-            <Title>Full Stack Developer</Title>
+            <Title>Frontend Developer (FullStack)</Title>
 
             <Line />
             <Block>
                 <Text>
-                      f you want to make your team stronger, or you have a lot of routine tasks, or are just starting a startup, then you need me. I work efficiently and perform tasks of any complexity. I always have a couple of creative ideas. I often update my skills and learn new technologies
+                  I'm a developer with 5+ years of experience.
+                  I've worked primarily with React, TS, Next, Node, Fastify, and RabbitMQ.
+                  worked with PostgressQL and MongoDB.
+                  also have experience working with FastAPI.
+                  I love writing code, so I often work longer hours than necessary,
+                  especially when it comes to complex tasks or integrations.
+                  Always have a few cool ideas. Very positive and friendly person.
                 </Text>
             </Block>
 
@@ -91,7 +97,7 @@ export default function RightSide() {
               </LinkTitle>
 
               <Text>
-                It's my first web app for Telegram. I used the Telegram Web App API, React, and Node.js.
+                Web app for Telegram. I used the Telegram Web App API, React, and Node.js.
                 The app allows users to exchange crypto currencies directly within Telegram.
               </Text>
               <LinkTitle href="https://github.com/chetkiy777/tg-web-app">Github</LinkTitle>
@@ -100,22 +106,24 @@ export default function RightSide() {
             <BlockTitle>Work Experience</BlockTitle>
             <Line />
 
-
-            <Block>
-              <Title>"Traffic Squad"
-                August 2024 - for now| Ukraine</Title>
-              <Text>
-                I'm currently working on a large project as a full-stack developer. I'm developing the API in Python and writing front-end logic in React.
-                I take on all the complex and hardest tasks and rework what the junior developers have written.</Text>
-            </Block>
-
+          <Block>
+            <Title>"Traffic Squad" 2024 - December 2025 | Ukraine</Title>
+            <Text>
+              Worked on the PWA Service project, and affiliate program like Keitaro.
+              Wrote the logic for generating and distributing traffic streams.
+              I created complex tables for click and registration statistics.
+              I wrote logic in Nestify, TypeORM, and RabbitMQ for statistics, creating, editing and calculate
+              data, lead and offers.
+            </Text>
+          </Block>
 
             <Block>
               <Title>"Pixoram"
                 August 2023 - August 2024| Ukraine</Title>
               <Text>
-                I worked as a Tech Lead. I set up Monday with integrations and automations.
-                I created my own cloaking system and many other optimization products.</Text>
+                I worked as a Team Lead. I set up Monday with integrations and automations.
+                Interviewed and trained juniors who were involved in the layout and setup of advertising domains.
+                Сreated own cloaking system and many other products for optimizations.</Text>
             </Block>
 
 
@@ -123,8 +131,7 @@ export default function RightSide() {
               <Title>"Bulls Media"
                 January 2022 - August 2023| Ukraine</Title>
               <Text>
-                I've created many different landing pages using HTML+CSS and several projects using React,
-                all with a gaming theme.</Text>
+                Сreated many different landing pages using HTML+CSS and several projects using React, Next and Tailwind.</Text>
             </Block>
 
             <Block>
@@ -160,6 +167,7 @@ export default function RightSide() {
                 Full-stack JavaScript development</Title>
                 <Text>September 2020 - August 2021| Ukraine (1 year)</Text>
             </Block>
+
 
 
         </div>
