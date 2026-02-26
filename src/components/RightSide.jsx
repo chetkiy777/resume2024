@@ -1,5 +1,13 @@
 import styled from "styled-components"
 
+const Wrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;    
+
+`
+
 const MainTitle = styled.p`
     font-size: 21px;
     font-weight: 800;
@@ -49,7 +57,7 @@ const Line = styled.hr`
 
 export default function RightSide() {
     return(
-        <div>
+        <Wrapper>
             <MainTitle>Igor Gladkiy</MainTitle>
             <Title>Frontend Developer (FullStack)</Title>
 
@@ -57,12 +65,12 @@ export default function RightSide() {
             <Block>
                 <Text>
                   I'm a developer with 5+ years of experience.
-                  I've worked primarily with React, TS, Next, Node, Fastify, and RabbitMQ.
-                  worked with PostgressQL and MongoDB.
-                  also have experience working with FastAPI.
-                  I love writing code, so I often work longer hours than necessary,
-                  especially when it comes to complex tasks or integrations.
-                  Always have a few cool ideas. Very positive and friendly person.
+                  My main stack is React + TS + Node (Fastify, Express) + TypeORM + Postgres.
+                  Also have experience working with Docker, RabbitMQ, Tailwind.
+                  Always in a good mood and in a working spirit. I work not according to a schedule, but for results.
+                  I have many interesting cases in development. For the last two years,
+                  have been working in the iGaming and Fintech industries.
+
                 </Text>
             </Block>
 
@@ -110,7 +118,7 @@ export default function RightSide() {
             <Title>"Traffic Squad" 2024 - December 2025 | Ukraine</Title>
             <Text>
               Worked on the PWA Service project, and affiliate program like Keitaro.
-              Wrote the logic for generating and distributing traffic streams.
+              Command integration, postback setup. Conversion API and Meta Pixel integration.
               I created complex tables for click and registration statistics.
               I wrote logic in Nestify, TypeORM, and RabbitMQ for statistics, creating, editing and calculate
               data, lead and offers.
@@ -121,9 +129,11 @@ export default function RightSide() {
               <Title>"Pixoram"
                 August 2023 - August 2024| Ukraine</Title>
               <Text>
-                I worked as a Team Lead. I set up Monday with integrations and automations.
-                Interviewed and trained juniors who were involved in the layout and setup of advertising domains.
-                Сreated own cloaking system and many other products for optimizations.</Text>
+                I worked as a Tech Lead.
+                Interviewed and trained juniors.
+                Setting up Keitaro, Campaigns and Offers for buyers.
+                Developed PWA Service like PWA Group.
+                Сreated own cloaking system. </Text>
             </Block>
 
 
@@ -132,14 +142,6 @@ export default function RightSide() {
                 January 2022 - August 2023| Ukraine</Title>
               <Text>
                 Сreated many different landing pages using HTML+CSS and several projects using React, Next and Tailwind.</Text>
-            </Block>
-
-            <Block>
-                <Title>"MACC-Systems"
-                April 2021 - January 2022 | Ukraine</Title>
-                <Text>
-                create interfaces and write logic for big ERP applications
-                Based on API objects, I create forms that calculate logic ofvarious types of complexity. I train juniors and integrate theminto team work. I’m setting up Engines, working</Text>
             </Block>
 
 
@@ -156,11 +158,11 @@ export default function RightSide() {
             <BlockTitle>Courses</BlockTitle>
             <Line />
 
-            <Block>
-                <Title>ITEA
-                Certificate of completion JavaScript Advanced</Title>
-                <Text>October 2017| Ukraine (3 month)</Text>
-            </Block>
+          <Block>
+            <Title>Robot_Dreams
+              WEB3 Developer (Solidity)</Title>
+            <Text>October 2025| Ukraine (3 month)</Text>
+          </Block>
 
             <Block>
                 <Title>GOIT
@@ -170,6 +172,6 @@ export default function RightSide() {
 
 
 
-        </div>
+        </Wrapper>
     )
 }

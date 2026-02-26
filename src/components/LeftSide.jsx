@@ -10,10 +10,13 @@ const StyledContainer = styled.div`
     display: flex;
     flex-direction: column;
     color: #fafafa;
-    height: 100vh;
+    height: 100%;
     width: 350px;
     margin-right: 40px;
-`
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+`;
 
 const StyledPhoto = styled.div`
     height: auto;
@@ -65,7 +68,7 @@ export default function LeftSide() {
 
                 <li style={{marginBottom: '5px'}}>
                     <TgLogo height="18" width="18"/>
-                    <a href="https://t.me/bollo_young">Telegram</a>
+                    <a href="https://t.me/igorek_chetkiy">Telegram</a>
                 </li>
 
                 <li style={{marginBottom: '5px'}}>
@@ -83,10 +86,9 @@ export default function LeftSide() {
             <StyledList>
                 <h3>Tech Skills</h3>
                 
-                <li>React, Next</li>
+                <li>React, Next, TypeScript, PHP</li>
                 <li>Node, Fastify</li>
-                <li>WEB3, Solidity</li>
-                <li>Docker, Cloudflare, Nginx</li>
+                <li>Docker, Cloudflare, Nginx, Keitaro</li>
 
             </StyledList>
 
